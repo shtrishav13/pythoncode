@@ -38,4 +38,38 @@ print(6 and 7)
 #if and is used then it returns first false if both are true then it returns last value
 # if or is used then it returns first true if both are false then it returns last value
 
-print('apple'<'apple')
+print('apple'<'aPPLE')
+#ordinal
+print(ord('A'))
+print(ord('😅'))
+print(ord('Z'))
+
+#character
+print(chr(67))
+print(chr(128517))
+
+print('"Hello i am Rishav"')
+print("helllo \"hel\nlo\"")
+print("hello \rworld")
+
+
+print(5&3)
+print(5|3)
+print(5^3)
+print(5&4)
+print(5|4)
+print(5^4)
+
+print(5<<2)
+
+#membership and identity operators
+
+a= [1,2,3]
+b= [1,2,3]
+c= a
+print(a is b)# false
+print(a == b)# true
+print(a is c)# true
+print(id(a))
+print(id(b))   
+print(id(c))
